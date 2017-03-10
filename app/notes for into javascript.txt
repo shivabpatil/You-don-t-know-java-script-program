@@ -1,0 +1,20 @@
+type => values have type not variables.
+type => Number, String, Boolean, null/undefined, Object, Symbol.
+typeof null => it returns as object that is bug in JS. But lot of code is
+               created around it so fixing it will create more bugs hence it
+               not fixed.
+object => can be accessed with . notation or obj["a"] index notation.
+          Index notation used when property name has special character.
+          Index notation needs string literal obj["a"] or variable
+          obj[b] where b = "a".
+array => this is special type of object. As it is an object it has properties
+         and functions. Some of the properties are update automatically like length.
+
+function => this is subtype of object. when used typeof on function it will return
+            object.
+boxing => string value is wrapped in String object and so on. This is known as
+          boxing.
+truthy /falsy => non boolean values that are coerced to false are :
+                  "",NaN,0,-0,null,undefined,false
+                 values that are not falsy are coerced to true like:
+                 [],{} are considered true 

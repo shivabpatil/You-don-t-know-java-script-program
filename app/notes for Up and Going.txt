@@ -1,0 +1,26 @@
+a = b * 2 => 2 is a literal value. Values that are included directly in
+             the source code are called literals.
+coercion  => changing the type of the variable.
+
+string    => black in chrome and red in mozilla
+number    => blue in chrome and  blue in mozilla
+"99.99" == 99.99 => gives true as explicit coercion occur.
+
+"You should strive not just to write programs that work correctly,
+but programs that make sense when examined."
+
+dynamic typing => the type of the variable decided at run time.
+                  same variable can hold different type of values.
+
+static typing/enforcement type => variable holds specific value. Prevents
+                                  unintended coercions.
+
+state(for program) => tracking the changes to values as program runs.
+
+const => used to declare constant in javascripts. name of constant must be
+        in capital with underscore. e.g TAX_RATE . can not change value.
+        gives invalid assignment error.
+
+conditional statements => implicit coercion occur in conditional statement to
+                          get boolean value.
+                          
